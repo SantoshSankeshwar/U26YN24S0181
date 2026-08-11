@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Available - BLDEA College</title>
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 60px 20px;
+        }
+
+        /* Card Container */
+        .content-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 900px;
+            padding: 45px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+            text-align: center;
+            border-top: 5px solid #0056b3; /* Matching professional blue accent */
+        }
+
+        /* Navigation Links */
+        .nav-links {
+            margin-bottom: 35px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #555555;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin: 0 15px;
+            transition: color 0.2s ease, border-bottom 0.2s ease;
+            padding-bottom: 5px;
+            border-bottom: 2px solid transparent;
+        }
+
+        .nav-links a:hover {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+        }
+
+        /* Main Heading */
+        .main-headline {
+            color: #2e7d32; /* A sophisticated forest/emerald green to replace the harsh bright green */
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 30px;
+        }
+
+        /* Courses List Container */
+        .course-list {
+            list-style: none; /* Removes standard bullet points */
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        /* Individual Course Items */
+        .course-list li {
+            font-size: 1.1rem;
+            color: #4a5568;
+            font-weight: 500;
+            padding: 12px 18px;
+            margin-bottom: 10px;
+            background-color: #f8fafc;
+            border-left: 4px solid #0056b3; /* Professional accent left border */
+            border-radius: 4px;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .course-list li:hover {
+            transform: translateX(5px);
+            background-color: #edf2f7;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-card">
+        <!-- Navigation Bar -->
+        <nav class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact us</a>
+        </nav>
+
+        <!-- Main Headline -->
+        <h1 class="main-headline">Courses available in BLDEA college</h1>
+        
+        <!-- Courses List -->
+        <ul class="course-list">
+            <li>Internet Technology</li>
+            <li>Mobile Application Development</li>
+            <li>Software Engineering</li>
+            <li>Data Analytics using Power BI</li>
+        </ul>
+    </div>
+
+</body>
+</html>
