@@ -55,7 +55,7 @@ const server=http.createServer((req,resp)=>{
         }
 
     })
-    server.listen(process.env.PORT,()=>{
+    server.listen(3000,()=>{
             console.log("server is started")
         }
     );
